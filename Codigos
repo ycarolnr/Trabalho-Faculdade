@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa página</title>
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1 class="supertitulo" id="tituloprincipal">Um pouco de min</h1>
+
+    <p style="background-color: rgb(114, 114, 114);font-size: large;">Deixa eu me apresentar</p>
+
+    <p> Meu nome é Ycaro Luiz Nunes Ribeiro</p>
+
+    <p>Idade:20 anos, Moro em Santo André-São Paulo</p>
+
+    <p>Meus interesses: Amo ler livros, amo ouvir músicas e adoro tecnologia desde pequeno</p>
+
+    <p style="background-color: rgb(114, 114, 114);font-size: large;"> Hobbies</p>
+   
+    <p> Dentre meus hobbies favoritos amo leitura</p>
+
+ <img src="livros.jpg" alt="Descrição da imagem" width="300">
+
+    <p style="background-color: rgb(114, 114, 114);font-size: large;"> Carreira</p>
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela HTML</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Plano de Carreira </h2>
+
+    <table>
+        <tr>
+            <th>Futuro</th>
+            <th>Curiosidades</th>
+        </tr>
+        <tr>
+            <td>Gostaria de Trabalhar no Canadá </td>
+            <td>Pretendo me profissionalizar em Gestão de TI</td>
+        </tr>
+        <tr>
+            <td>Sou apaixonado por tecnologia desde pequeno</td>
+            <td>Sou cursado técnico em Design desde então me apaixonei por tecnologia</td>
+        </tr>
+    </table>
+
+    <p style="background-color: rgb(114, 114, 114);font-size: large;"> Inspirações</p>
+    <p> Para ver dentre minhas Inspirações e Locais de Aprendizado</p>
+    <a href="https://www.udemy.com/" target="_blank">Udemy-Cursos</a>
+</body>
+</html>
+
+<p style="background-color: rgb(114, 114, 114);font-size: large;"> Surpresinha no final</p>
+<body>
+
+    <button onclick="mostrarMensagem()">Clique Aqui</button>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Lhe desejo um otimo dia Professora.");
+        }
+    </script>
+
+</body>
+</body>
+
+</html>
